@@ -1,0 +1,42 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v3.json",
+    "data": { "values": [
+        { "location": "Honolulu, HI", "nbTweets": 36, "retweets":32 },
+        { "location": "Oakland, CA", "nbTweets": 40, "retweets":43 },
+        { "location": "Providence, RI", "nbTweets": 44, "retweets":12 },
+        { "location": "Chicago, IL", "nbTweets": 45, "retweets":65 },
+        { "location": "Fairfax, VA", "nbTweets": 55, "retweets":45 },
+        { "location": "eXistenZ", "nbTweets": 57, "retweets":78 },
+        { "location": "Norfolk, VA", "nbTweets": 58, "retweets":44 },
+        { "location": "Brooklyn, NY", "nbTweets": 72, "retweets":12 },
+        { "location": "Glasgow, UK", "nbTweets": 75, "retweets":67 },
+        { "location": "May Subd Geog", "nbTweets": 77, "retweets":12 },
+        { "location": "Waterloo, Ontario", "nbTweets": 83, "retweets":96 },
+        { "location": "Wakanda 🙌🏽", "nbTweets": 83, "retweets":34 },
+        { "location": "'California, USA", "nbTweets": 83, "retweets":33 },
+        { "location": "Silver Spring, MD", "nbTweets": 88, "retweets":20 },
+        { "location": "The New Museum | 235 Bowery", "nbTweets": 92, "retweets":63 },
+        { "location": "Brooklyn", "nbTweets": 92, "retweets":87 },
+        { "location": "in the network", "nbTweets": 126, "retweets":12 },
+        { "location": "Amherst, MA", "nbTweets": 136, "retweets":78 },
+        { "location": "Omniverse", "nbTweets": 143, "retweets":45 },
+        { "location": "New York, NY", "nbTweets": 226, "retweets":23 } ]
+    
+  },
+    "title":"20 régions ayant le plus de retweets",
+    "mark": "bar",
+    "encoding": {
+
+        "x": {
+            "field": "location",
+            "type": "ordinal",
+            "axis": {"title": "Régions"}
+        },
+        
+        "y": {
+            "type": "quantitative",
+            "field":"nbTweets",
+            "axis": {"title": "Nombre de tweets"}
+        }
+        }
+    }

@@ -1,0 +1,20 @@
+{
+  "name": "tweet_analysis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "caporal": "^1.1.0",
+    "csvtojson": "^2.0.8",
+    "json2csv": "^4.3.1",
+    "recursive-readdir-sync": "^1.0.6",
+    "vega": "^4.3.0",
+    "vega-lite": "^3.0.0-rc8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

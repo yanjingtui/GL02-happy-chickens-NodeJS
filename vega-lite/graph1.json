@@ -1,0 +1,24 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v3.json",
+    "data": {
+    "values": [ ]
+    
+  },
+    "title":"Nombre de tweets par heure",
+    "mark": "bar",
+    "encoding": {
+
+        "x": {
+            "field": "hour",
+            "type": "quantitative",
+            "axis": {"title": "Heure"}
+        },
+        
+        "y": {
+
+            "type": "quantitative",
+            "field":"nbTweets",
+            "axis": {"title": "Nombre de tweets"}
+        }
+        }
+    }

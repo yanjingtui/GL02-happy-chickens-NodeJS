@@ -1,0 +1,24 @@
+{
+    "width": 300,
+    "height": 200,
+    "$schema": "https://vega.github.io/schema/vega-lite/v3.json",
+    "data": { "values": [ ]
+  },
+    "title":"Top 10 des tweets ayant été le plus retweeté",
+    "mark": "bar",
+    "encoding": {
+
+        "x": {
+            "field": "id",
+            "type": "ordinal",
+            "sort": {"op":"mean", "field": "retweet_count"},
+            "axis": {"title": "ID des tweets"}
+        },
+        
+        "y": {
+            "type": "quantitative",
+            "field":"retweet_count",
+            "axis": {"title": "Nombre de retweets"}
+        }
+        }
+    }
